@@ -1,0 +1,7 @@
+body { font-family: system-ui, sans-serif; background:#f6f7fb; }
+.wrap { max-width: 960px; margin: 30px auto; padding: 18px; background:#fff; border-radius: 12px; }
+.grid { display:grid; grid-template-columns: repeat(2, 1fr); gap: 12px; }
+label { display:flex; flex-direction:column; gap:6px; font-size:14px; }
+input, textarea { padding:10px; border:1px solid #ddd; border-radius:10px; }
+button { margin-top: 12px; padding: 10px 14px; border-radius: 10px; border: 0; cursor:pointer; }
+pre { background:#0b1020; color:#e8ecff; padding: 12px; border-radius: 10px; overflow:auto; }
