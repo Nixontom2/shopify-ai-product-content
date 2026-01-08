@@ -1,0 +1,13 @@
+{
+  "name": "shopify-ai-product-content-server",
+  "type": "module",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "openai": "^4.0.0"
+  },
+  "scripts": {
+    "dev": "node index.js"
+  }
+}
