@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Shopify AI Product Content Generator</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Shopify AI Product Content Generator</h1>
+
+    <div class="grid">
+      <label>Product name<input id="productName" placeholder="e.g., Stainless Steel Water Bottle"/></label>
+      <label>Brand<input id="brand" placeholder="e.g., HydroCo"/></label>
+      <label>Category<input id="category" placeholder="e.g., Drinkware"/></label>
+      <label>Audience<input id="audience" placeholder="e.g., gym, travel"/></label>
+      <label>Tone<input id="tone" placeholder="professional / premium / minimal"/></label>
+      <label>Keywords<input id="keywords" placeholder="eco friendly, BPA free"/></label>
+    </div>
+
+    <label>Features / Notes<textarea id="features" rows="6" placeholder="Key features, materials, sizes, benefits..."></textarea></label>
+
+    <button id="genBtn">Generate</button>
+
+    <h2>Output</h2>
+    <pre id="output"></pre>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
