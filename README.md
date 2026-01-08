@@ -1,0 +1,1 @@
+# shopify-ai-product-content
